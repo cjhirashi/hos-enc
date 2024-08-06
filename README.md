@@ -16,7 +16,7 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. Unidad Manejadora de Aire (UMA-02-01) - Unizona - Gobierno
+1. Unidad Manejadora de Aire - Unizona - Gobierno
     - Sensor de temperatura en ducto de inyección
     - Sensor de presión diferencial en ducto de inyección
     - Relevador para el encendido de luz ultravioleta
@@ -24,8 +24,10 @@ Diagramas de control de Unidades Manejadoras de aire
     - Alarma del estado del ventilador VFD
     - Control de la velocidad del ventilador VFD
     - Actuador de válvula en las tuberías de agua helada
-    
-    > UMA-02-01 - Unizona - Gobierno
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    UMA-02-01 | Unizona | Gobierno
 
 2. 
 
