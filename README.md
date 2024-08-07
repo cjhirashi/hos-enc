@@ -126,7 +126,7 @@ Diagramas de control de Unidades Manejadoras de aire
     - Sensor de presión diferencial en ducto de inyección
     - Relevador para el encendido de luz ultravioleta
     - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Interruptor presión diferencial, estado de los filtros MERV 17
     - Monitoreo de la velocidad del ventilador VFD
     - Alarma del estado del ventilador VFD
     - Control de la velocidad del ventilador VFD
@@ -146,6 +146,109 @@ Diagramas de control de Unidades Manejadoras de aire
     **UMA-01-06DX** | UNIZONA | SALA DE CIRUGIA AMBULATORIA
 
 #### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
+
+7. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-01-03** | UNIZONA | ENDOSCOPIAS
+
+8. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Relevador arranque y paro del ventilador de extracción
+    - Sensor de corriente estado del ventilador de extracción
+
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-00-05** | UNIZONA | QUIMIOTERAPIA/DIALISIS
+    **UMA-00-07** | UNIZONA | CLINICA DE HERIDAS
+
+9. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Relevador arranque y paro del ventilador de extracción 1
+    - Sensor de corriente estado del ventilador de extracción 1
+    - Relevador arranque y paro del ventilador de extracción 2
+    - Sensor de corriente estado del ventilador de extracción 2
+    - Relevador arranque y paro del ventilador de extracción 3
+    - Sensor de corriente estado del ventilador de extracción 3
+    - Relevador arranque y paro del ventilador de extracción 4
+    - Sensor de corriente estado del ventilador de extracción 4
+
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-00-06** | UNIZONA | HEMODIALISIS
+
+10. ***AGUA HELADA***
+
+Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+
+    - 3 CHILLERS
+    - 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
+    - 3 BOMBAS DE AGUA HELADA, CIRCUITO SECUNDARIO (BOMBEO VARIABLE)
+
+11. ***AGUA CONDENSADOS***
+
+Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+
+    - 2 TORRES DE ENFRIAMIENTO
+    - 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
+
+12. ***UNIDAD LIGERA DE PLAFON***
+
+¿Este sistema se va a controlar?
+
+13. ***UNIDADES FAN & COIL***
+
+¿Este sistema se va a controlar?
+
+14. ***UNIDAD PAQUETE***
+
+¿Este sistema se va a controlar?
+
+15. ***CONEXION SERPENTIN-CONDENSADOR MAYOR A 10 TONELADAS DE REFRIGERACION***
+
+¿Este sistema se va a controlar?
+
+16. ***CONEXION SERPENTIN-CONDENSADOR MENOR A 10 TONELADAS DE REFRIGERACION***
+
+¿Este sistema se va a controlar?
 
 ### DIAGRAMAS DE AREAS
 
