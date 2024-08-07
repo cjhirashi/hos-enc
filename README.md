@@ -16,7 +16,7 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. Unidad Manejadora de Aire
+1. ***Unidad Manejadora de Aire***
 
     - Sensor de temperatura en ducto de inyección
     - Sensor de presión diferencial en ducto de inyección
@@ -28,9 +28,9 @@ Diagramas de control de Unidades Manejadoras de aire
 
     EQUIPO | TIPO | AREA
     -------|------|-----
-    UMA-02-01 | UNIZONA | GOBIERNO
+    ***UMA-02-01*** | UNIZONA | GOBIERNO
 
-2. Unidad Manejadora de Aire
+2. ***Unidad Manejadora de Aire***
 
     - Sensor de temperatura en ducto de inyección
     - Sensor de presión diferencial en ducto de inyección
@@ -44,16 +44,16 @@ Diagramas de control de Unidades Manejadoras de aire
 
     EQUIPO | TIPO | AREA
     -------|------|-----
-    UMA-00-03 | UNIZONA | CONSULTA EXTARNA 1
-    UMA-00-04 | UNIZONA | SALA DE ESPERA, CONSULTA EXTERNA
-    UMA-00-09 | UNIZONA | SALA DE ESPERA, LABORATORIO
-    UMA-01-01 | UNIZONA | SALA ESPERA/CONS. EXTERNA 1
-    UMA-01-02 | UNIZONA | SALA ESPERA/CONS. EXTERNA 2
-    UMA-01-07 | UNIZONA | SALA DE ESPERA, ENDOSCOPIA
-    UMA-01-09 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 3
-    UMA-01-10 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 4
+    ***UMA-00-03*** | UNIZONA | CONSULTA EXTARNA 1
+    ***UMA-00-04*** | UNIZONA | SALA DE ESPERA, CONSULTA EXTERNA
+    ***UMA-00-09*** | UNIZONA | SALA DE ESPERA, LABORATORIO
+    ***UMA-01-01*** | UNIZONA | SALA ESPERA/CONS. EXTERNA 1
+    ***UMA-01-02*** | UNIZONA | SALA ESPERA/CONS. EXTERNA 2
+    ***UMA-01-07*** | UNIZONA | SALA DE ESPERA, ENDOSCOPIA
+    ***UMA-01-09*** | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 3
+    ***UMA-01-10*** | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 4
 
-3. Unidad Manejadora de Aire
+3. ***Unidad Manejadora de Aire***
 
     - Sensor de temperatura en ducto de inyección
     - Sensor de presión diferencial en ducto de inyección
@@ -69,7 +69,7 @@ Diagramas de control de Unidades Manejadoras de aire
 
     EQUIPO | TIPO | AREA
     -------|------|-----
-    UMA-00-08 | UNIZONA | LABORATORIO
+    ***UMA-00-08*** | UNIZONA | LABORATORIO
 
 #### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
