@@ -149,16 +149,16 @@ Diagramas de control de Unidades Manejadoras de aire
 
 7. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 15
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
 
     ======================================================
 
@@ -168,18 +168,18 @@ Diagramas de control de Unidades Manejadoras de aire
 
 8. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Relevador arranque y paro del ventilador de extracción
-    - Sensor de corriente estado del ventilador de extracción
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 15
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Relevador arranque y paro del ventilador de extracción
+    > - Sensor de corriente estado del ventilador de extracción
 
     ======================================================
 
@@ -190,22 +190,22 @@ Diagramas de control de Unidades Manejadoras de aire
 
 9. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Relevador arranque y paro del ventilador de extracción 1
-    - Sensor de corriente estado del ventilador de extracción 1
-    - Relevador arranque y paro del ventilador de extracción 2
-    - Sensor de corriente estado del ventilador de extracción 2
-    - Relevador arranque y paro del ventilador de extracción 3
-    - Sensor de corriente estado del ventilador de extracción 3
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 15
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Relevador arranque y paro del ventilador de extracción 1
+    > - Sensor de corriente estado del ventilador de extracción 1
+    > - Relevador arranque y paro del ventilador de extracción 2
+    > - Sensor de corriente estado del ventilador de extracción 2
+    > - Relevador arranque y paro del ventilador de extracción 3
+    > - Sensor de corriente estado del ventilador de extracción 3
     > - Relevador arranque y paro del ventilador de extracción 4
     > - Sensor de corriente estado del ventilador de extracción 4
 
