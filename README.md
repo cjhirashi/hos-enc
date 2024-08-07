@@ -206,8 +206,8 @@ Diagramas de control de Unidades Manejadoras de aire
     - Sensor de corriente estado del ventilador de extracción 2
     - Relevador arranque y paro del ventilador de extracción 3
     - Sensor de corriente estado del ventilador de extracción 3
-    - Relevador arranque y paro del ventilador de extracción 4
-    - Sensor de corriente estado del ventilador de extracción 4
+    > - Relevador arranque y paro del ventilador de extracción 4
+    > - Sensor de corriente estado del ventilador de extracción 4
 
     ======================================================
 
