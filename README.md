@@ -25,6 +25,7 @@ Diagramas de control de Unidades Manejadoras de aire
     - Alarma del estado del ventilador VFD
     - Control de la velocidad del ventilador VFD
     - Actuador de válvula en las tuberías de agua helada
+
     ======================================================
 
     EQUIPO | TIPO | AREA
@@ -42,6 +43,8 @@ Diagramas de control de Unidades Manejadoras de aire
     - Control de la velocidad del ventilador VFD
     - Relevador para el arranque y paro del motor del ventilador
     - Actuador de válvula en las tuberías de agua helada
+    
+    ======================================================
 
     EQUIPO | TIPO | AREA
     -------|------|-----
@@ -67,6 +70,8 @@ Diagramas de control de Unidades Manejadoras de aire
     - Actuador de válvula en las tuberías de agua helada
     - Relevador arranque y paro del ventilador de extracción
     - Sensor de corriente estado del ventilador de extracción
+    
+    ======================================================
 
     EQUIPO | TIPO | AREA
     -------|------|-----
