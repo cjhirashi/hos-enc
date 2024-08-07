@@ -18,13 +18,13 @@ Diagramas de control de Unidades Manejadoras de aire
 
 1. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Actuador de válvula en las tuberías de agua helada
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Actuador de válvula en las tuberías de agua helada
 
     ======================================================
 
@@ -34,15 +34,15 @@ Diagramas de control de Unidades Manejadoras de aire
 
 2. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor de presión diferencial, estado de los filtros MERV 12
-    - Monitoreo de velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor de presión diferencial, estado de los filtros MERV 12
+    > - Monitoreo de velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
     
     ======================================================
 
@@ -59,17 +59,17 @@ Diagramas de control de Unidades Manejadoras de aire
 
 3. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Relevador arranque y paro del ventilador de extracción
-    - Sensor de corriente estado del ventilador de extracción
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Relevador arranque y paro del ventilador de extracción
+    > - Sensor de corriente estado del ventilador de extracción
     
     ======================================================
 
@@ -79,18 +79,18 @@ Diagramas de control de Unidades Manejadoras de aire
 
 4. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Arranque y paro de la unidad condensadora
-    - Estado de la unidad condensadora
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 15
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Arranque y paro de la unidad condensadora
+    > - Estado de la unidad condensadora
     
     ======================================================
 
@@ -100,19 +100,19 @@ Diagramas de control de Unidades Manejadoras de aire
 
 5. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 15
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Actuador de válvula en las tuberías de agua condensada
-    - Arranque y paro de la unidad condensadora
-    - Estado de la unidad condensadora
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 15
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Actuador de válvula en las tuberías de agua condensada
+    > - Arranque y paro de la unidad condensadora
+    > - Estado de la unidad condensadora
     
     ======================================================
 
@@ -122,21 +122,21 @@ Diagramas de control de Unidades Manejadoras de aire
 
 6. ***UNIDAD MANEJADORA DE AIRE***
 
-    - Sensor de temperatura en ducto de inyección
-    - Sensor de presión diferencial en ducto de inyección
-    - Relevador para el encendido de luz ultravioleta
-    - Interruptor presión diferencial, estado de los filtros MERV 12
-    - Interruptor presión diferencial, estado de los filtros MERV 17
-    - Monitoreo de la velocidad del ventilador VFD
-    - Alarma del estado del ventilador VFD
-    - Control de la velocidad del ventilador VFD
-    - Relevador para el arranque y paro del motor del ventilador
-    - Actuador de válvula en las tuberías de agua helada
-    - Actuador de válvula en las tuberías de agua condensada
-    - Relevador arranque y paro del ventilador de extracción
-    - Sensor de corriente estado del ventilador de extracción
-    - Arranque y paro de la unidad condensadora
-    - Estado de la unidad condensadora
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor presión diferencial, estado de los filtros MERV 12
+    > - Interruptor presión diferencial, estado de los filtros MERV 17
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
+    > - Actuador de válvula en las tuberías de agua condensada
+    > - Relevador arranque y paro del ventilador de extracción
+    > - Sensor de corriente estado del ventilador de extracción
+    > - Arranque y paro de la unidad condensadora
+    > - Estado de la unidad condensadora
     
     ======================================================
 
@@ -225,14 +225,14 @@ Diagramas de control de Unidades Manejadoras de aire
 
 11. ***AGUA CONDENSADOS***
 
-    > Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+    Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
 
     > 2 TORRES DE ENFRIAMIENTO
     > 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
 
 12. ***UNIDAD LIGERA DE PLAFON***
 
-    > ¿Este sistema se va a controlar?
+    ¿Este sistema se va a controlar?
 
 13. ***UNIDADES FAN & COIL***
 
