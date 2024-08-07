@@ -1,6 +1,6 @@
 # SISTEMA DE CONTROL - HOSPITAL GENERAL REGIONAL 216 CAMA, ENSENADA, BAJA CALIFORNIA
 
-Sistema de automatización del aire acondicionado
+Proyecto ejecutivo de sistema de control y automatización de aire acondicionado
 
 ## UBICACIÓN
 
@@ -52,6 +52,24 @@ Diagramas de control de Unidades Manejadoras de aire
     UMA-01-07 | UNIZONA | SALA DE ESPERA, ENDOSCOPIA
     UMA-01-09 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 3
     UMA-01-10 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 4
+
+3. Unidad Manejadora de Aire
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Relevador arranque y paro del ventilador de extracción
+    - Sensor de corriente estado del ventilador de extracción
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    UMA-00-08 | UNIZONA | LABORATORIO
 
 #### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
