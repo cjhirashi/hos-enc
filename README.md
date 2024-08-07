@@ -217,22 +217,22 @@ Diagramas de control de Unidades Manejadoras de aire
 
 10. ***AGUA HELADA***
 
-Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+    > Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
 
-    - 3 CHILLERS
-    - 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
-    - 3 BOMBAS DE AGUA HELADA, CIRCUITO SECUNDARIO (BOMBEO VARIABLE)
+    > 3 CHILLERS
+    > 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
+    > 3 BOMBAS DE AGUA HELADA, CIRCUITO SECUNDARIO (BOMBEO VARIABLE)
 
 11. ***AGUA CONDENSADOS***
 
-Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+    > Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
 
-    - 2 TORRES DE ENFRIAMIENTO
-    - 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
+    > 2 TORRES DE ENFRIAMIENTO
+    > 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
 
 12. ***UNIDAD LIGERA DE PLAFON***
 
-¿Este sistema se va a controlar?
+    > ¿Este sistema se va a controlar?
 
 13. ***UNIDADES FAN & COIL***
 
