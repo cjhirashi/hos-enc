@@ -217,7 +217,7 @@ Diagramas de control de Unidades Manejadoras de aire
 
 10. ***AGUA HELADA***
 
-    > Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+    Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
 
     > 3 CHILLERS
     > 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
