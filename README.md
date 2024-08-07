@@ -236,19 +236,19 @@ Diagramas de control de Unidades Manejadoras de aire
 
 13. ***UNIDADES FAN & COIL***
 
-¿Este sistema se va a controlar?
+    ¿Este sistema se va a controlar?
 
 14. ***UNIDAD PAQUETE***
 
-¿Este sistema se va a controlar?
+    ¿Este sistema se va a controlar?
 
 15. ***CONEXION SERPENTIN-CONDENSADOR MAYOR A 10 TONELADAS DE REFRIGERACION***
 
-¿Este sistema se va a controlar?
+    ¿Este sistema se va a controlar?
 
 16. ***CONEXION SERPENTIN-CONDENSADOR MENOR A 10 TONELADAS DE REFRIGERACION***
 
-¿Este sistema se va a controlar?
+    ¿Este sistema se va a controlar?
 
 ### DIAGRAMAS DE AREAS
 
