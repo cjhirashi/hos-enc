@@ -16,7 +16,8 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. Unidad Manejadora de Aire - Unizona - Gobierno
+1. Unidad Manejadora de Aire
+
     - Sensor de temperatura en ducto de inyección
     - Sensor de presión diferencial en ducto de inyección
     - Relevador para el encendido de luz ultravioleta
@@ -27,9 +28,30 @@ Diagramas de control de Unidades Manejadoras de aire
 
     EQUIPO | TIPO | AREA
     -------|------|-----
-    UMA-02-01 | Unizona | Gobierno
+    UMA-02-01 | UNIZONA | GOBIERNO
 
-2. 
+2. Unidad Manejadora de Aire
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor de presión diferencial, estado de los filtros MERV 12
+    - Monitoreo de velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    UMA-00-03 | UNIZONA | CONSULTA EXTARNA 1
+    UMA-00-04 | UNIZONA | SALA DE ESPERA, CONSULTA EXTERNA
+    UMA-00-09 | UNIZONA | SALA DE ESPERA, LABORATORIO
+    UMA-01-01 | UNIZONA | SALA ESPERA/CONS. EXTERNA 1
+    UMA-01-02 | UNIZONA | SALA ESPERA/CONS. EXTERNA 2
+    UMA-01-07 | UNIZONA | SALA DE ESPERA, ENDOSCOPIA
+    UMA-01-09 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 3
+    UMA-01-10 | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 4
 
 #### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
