@@ -77,6 +77,74 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-00-08** | UNIZONA | LABORATORIO
 
+4. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Arranque y paro de la unidad condensadora
+    - Estado de la unidad condensadora
+    
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-00-01DX** | UNIZONA | TOMOGRAFO
+
+5. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Actuador de válvula en las tuberías de agua condensada
+    - Arranque y paro de la unidad condensadora
+    - Estado de la unidad condensadora
+    
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-01-04DX** | UNIZONA | TOMOGRAFO
+
+6. ***UNIDAD MANEJADORA DE AIRE***
+
+    - Sensor de temperatura en ducto de inyección
+    - Sensor de presión diferencial en ducto de inyección
+    - Relevador para el encendido de luz ultravioleta
+    - Interruptor presión diferencial, estado de los filtros MERV 12
+    - Interruptor presión diferencial, estado de los filtros MERV 15
+    - Monitoreo de la velocidad del ventilador VFD
+    - Alarma del estado del ventilador VFD
+    - Control de la velocidad del ventilador VFD
+    - Relevador para el arranque y paro del motor del ventilador
+    - Actuador de válvula en las tuberías de agua helada
+    - Actuador de válvula en las tuberías de agua condensada
+    - Relevador arranque y paro del ventilador de extracción
+    - Sensor de corriente estado del ventilador de extracción
+    - Arranque y paro de la unidad condensadora
+    - Estado de la unidad condensadora
+    
+    ======================================================
+
+    EQUIPO | TIPO | AREA
+    -------|------|-----
+    **UMA-01-05DX** | UNIZONA | SALA DE PROCEDIMIENTOS
+    **UMA-01-06DX** | UNIZONA | SALA DE CIRUGIA AMBULATORIA
+
 #### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
 ### DIAGRAMAS DE AREAS
