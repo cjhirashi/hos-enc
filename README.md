@@ -16,7 +16,7 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. ***UMA-P1 | VC, AH***
+1. ***UMA-P1 | VENT-VV, EF-AH, FT-UV***
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
