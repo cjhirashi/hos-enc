@@ -8,39 +8,37 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 ## DIAGRAMAS
 
-### DIAGRAMAS DE EQUIPOS
+### IAC,AZ01 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, AZOTEA, SECCIÓN 02
 
-#### IAC,AZ01 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, AZOTEA, SECCIÓN 02
-
-#### IAC,DC01 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
+### IAC,DC01 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. ***UMA-P1 | VENT-VV, EF-AH, FT-UV/PF***
+#### UMA-P1 | VENT-VV, EF-AH, FT-UV/PF
 
-    - Lista de cliente
+- Lista de cliente
 
-        > - Sensor de temperatura en ducto de inyección
-        > - Sensor de presión diferencial en ducto de inyección
-        > - Relevador para el encendido de luz ultravioleta
-        > - Monitoreo de la velocidad del ventilador VFD
-        > - Alarma del estado del ventilador VFD
-        > - Control de la velocidad del ventilador VFD
-        > - Actuador de válvula en las tuberías de agua helada
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Monitoreo de la velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Actuador de válvula en las tuberías de agua helada
 
-    - Lista sugerida
+- Lista sugerida
 
-        > - Temperatura de suministro | `AI` | **TEM-D**
-        > - Temperatura de retorno | `AI` | **TEM-D**
-        > - Temperatura de area | `AI` | **TEM-C**
-        > - Presión de suministro de aire | `AI` | **DPT**
-        > - Arranque de ventilador | `DO` | **RL** + **B_RL**
-        > - Confirmación de ventilador | `DI` | **CS**
-        > - Control de velocidad | `AO`
-        > - Control de válvula AH | `AO`
-        > - Estado de válvula de AH | `AI`
-        > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
-        > - Estado de Prefiltros | `DI` | **DPS**
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
 
     ======================================================
 
@@ -48,34 +46,34 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-02-01** | UNIZONA | GOBIERNO
 
-2. ***UMA-P2 | VENT-VV, EF-AH, FT-UV/PF/M12***
+#### UMA-P2 | VENT-VV, EF-AH, FT-UV/PF/M12
 
-    - Lista de cliente
+- Lista de cliente
 
-        > - Sensor de temperatura en ducto de inyección
-        > - Sensor de presión diferencial en ducto de inyección
-        > - Relevador para el encendido de luz ultravioleta
-        > - Interruptor de presión diferencial, estado de los filtros MERV 12
-        > - Monitoreo de velocidad del ventilador VFD
-        > - Alarma del estado del ventilador VFD
-        > - Control de la velocidad del ventilador VFD
-        > - Relevador para el arranque y paro del motor del ventilador
-        > - Actuador de válvula en las tuberías de agua helada
+    > - Sensor de temperatura en ducto de inyección
+    > - Sensor de presión diferencial en ducto de inyección
+    > - Relevador para el encendido de luz ultravioleta
+    > - Interruptor de presión diferencial, estado de los filtros MERV 12
+    > - Monitoreo de velocidad del ventilador VFD
+    > - Alarma del estado del ventilador VFD
+    > - Control de la velocidad del ventilador VFD
+    > - Relevador para el arranque y paro del motor del ventilador
+    > - Actuador de válvula en las tuberías de agua helada
 
-    - Lista sugerida
+- Lista sugerida
 
-        > - Temperatura de suministro | `AI` | **TEM-D**
-        > - Temperatura de retorno | `AI` | **TEM-D**
-        > - Temperatura de area | `AI` | **TEM-C**
-        > - Presión de suministro de aire | `AI` | **DPT**
-        > - Arranque de ventilador | `DO` | **RL** + **B_RL**
-        > - Confirmación de ventilador | `DI` | **CS**
-        > - Control de velocidad | `AO`
-        > - Control de válvula AH | `AO`
-        > - Estado de válvula de AH | `AI`
-        > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
-        > - Estado de Prefiltros | `DI` | **DPS**
-        > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
     
     ======================================================
 
@@ -90,7 +88,9 @@ Diagramas de control de Unidades Manejadoras de aire
     **UMA-01-09** | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 3
     **UMA-01-10** | UNIZONA | SALA DE ESPERA/CONSULTA EXTERNA 4
 
-3. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P3 | VENT-VV, EF-AH, FT-UV/PF/M12 EX-VC
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -103,6 +103,23 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Actuador de válvula en las tuberías de agua helada
     > - Relevador arranque y paro del ventilador de extracción
     > - Sensor de corriente estado del ventilador de extracción
+
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Arranque de extractor | `DO` | **RL** + **B_RL**
+    > - Confirmación de extracto | `DI` | **CS**
     
     ======================================================
 
@@ -110,7 +127,9 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-00-08** | UNIZONA | LABORATORIO
 
-4. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P4 | VENT-VV, EF-AH/DX, FT-UV/PF/M12/M15
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -124,6 +143,24 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Actuador de válvula en las tuberías de agua helada
     > - Arranque y paro de la unidad condensadora
     > - Estado de la unidad condensadora
+
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 15 | `DI` | **DPS**
+    > - Arranque de condensadora | `DO` | **RL** + **B_RL**
+    > - Confirmación de condensadora | `DI` | **CS**
     
     ======================================================
 
@@ -178,7 +215,7 @@ Diagramas de control de Unidades Manejadoras de aire
     **UMA-01-05DX** | UNIZONA | SALA DE PROCEDIMIENTOS
     **UMA-01-06DX** | UNIZONA | SALA DE CIRUGIA AMBULATORIA
 
-#### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
+### IAC,DC02 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD
 
 7. ***UNIDAD MANEJADORA DE AIRE***
 
@@ -283,36 +320,34 @@ Diagramas de control de Unidades Manejadoras de aire
 
     ¿Este sistema se va a controlar?
 
-### DIAGRAMAS DE AREAS
+### IAC001 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 01
 
-#### IAC001 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 01
+### IAC002 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 02
 
-#### IAC002 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 02
+### IAC005 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 05
 
-#### IAC005 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 05
+### IAC006 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 06
 
-#### IAC006 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 06
+### IAC007 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 07
 
-#### IAC007 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 07
+### IAC008 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 08
 
-#### IAC008 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 08
+### IAC009 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 09
 
-#### IAC009 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 09
+### IAC010 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 10
 
-#### IAC010 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 10
+### IAC011 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 11
 
-#### IAC011 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PLANTA BAJA, SECCIÓN 11
+### IAC102 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 02
 
-#### IAC102 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 02
+### IAC103 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 03
 
-#### IAC103 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 03
+### IAC104 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 04
 
-#### IAC104 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 04
+### IAC105 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 05
 
-#### IAC105 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 05
+### IAC106 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 06
 
-#### IAC106 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, PRIMER NIVEL, SECCIÓN 06
+### IAC201 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, SEGUNDO NIVEL, SECCIÓN 01
 
-#### IAC201 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, SEGUNDO NIVEL, SECCIÓN 01
-
-#### IAC202 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, SEGUNDO NIVEL, SECCIÓN 02
+### IAC202 - SISTEMA DE CONTROL DE AIRE ACONDICIONADO, SEGUNDO NIVEL, SECCIÓN 02
