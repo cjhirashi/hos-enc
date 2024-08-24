@@ -18,6 +18,8 @@ Diagramas de control de Unidades Manejadoras de aire
 
 1. ***UMA-P1 | VENT-VV, EF-AH, FT-UV***
 
+    Lista de cliente
+
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
     > - Relevador para el encendido de luz ultravioleta
@@ -25,6 +27,18 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Alarma del estado del ventilador VFD
     > - Control de la velocidad del ventilador VFD
     > - Actuador de válvula en las tuberías de agua helada
+
+    Lista sugerida
+
+    > - Temperatura de area | `AI` | **TEM-D**
+    > - Temperatura de cuarto | `AI` | **TEM-C**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
 
     ======================================================
 
