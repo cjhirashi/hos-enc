@@ -16,30 +16,31 @@ Av. Reforma S/N, colonia Jardines de chapultepec, CP 22785, Ensenada, Baja Calif
 
 Diagramas de control de Unidades Manejadoras de aire
 
-1. ***UMA-P1 | VENT-VV, EF-AH, FT-UV***
+1. ***UMA-P1 | VENT-VV, EF-AH, FT-UV/PF***
 
-    Lista de cliente
+    - Lista de cliente
 
-    > - Sensor de temperatura en ducto de inyección
-    > - Sensor de presión diferencial en ducto de inyección
-    > - Relevador para el encendido de luz ultravioleta
-    > - Monitoreo de la velocidad del ventilador VFD
-    > - Alarma del estado del ventilador VFD
-    > - Control de la velocidad del ventilador VFD
-    > - Actuador de válvula en las tuberías de agua helada
+        > - Sensor de temperatura en ducto de inyección
+        > - Sensor de presión diferencial en ducto de inyección
+        > - Relevador para el encendido de luz ultravioleta
+        > - Monitoreo de la velocidad del ventilador VFD
+        > - Alarma del estado del ventilador VFD
+        > - Control de la velocidad del ventilador VFD
+        > - Actuador de válvula en las tuberías de agua helada
 
-    Lista sugerida
+    - Lista sugerida
 
-    > - Temperatura de suministro | `AI` | **TEM-D**
-    > - Temperatura de retorno | `AI` | **TEM-D**
-    > - Temperatura de area | `AI` | **TEM-C**
-    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
-    > - Confirmación de ventilador | `DI` | **CS**
-    > - Control de velocidad | `AO`
-    > - Control de válvula AH | `AO`
-    > - Estado de válvula de AH | `AI`
-    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
-    > - Estado de Prefiltros | `DI` | **DPS**
+        > - Temperatura de suministro | `AI` | **TEM-D**
+        > - Temperatura de retorno | `AI` | **TEM-D**
+        > - Temperatura de area | `AI` | **TEM-C**
+        > - Presión de suministro de aire | `AI` | **DPT**
+        > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+        > - Confirmación de ventilador | `DI` | **CS**
+        > - Control de velocidad | `AO`
+        > - Control de válvula AH | `AO`
+        > - Estado de válvula de AH | `AI`
+        > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+        > - Estado de Prefiltros | `DI` | **DPS**
 
     ======================================================
 
@@ -47,17 +48,34 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-02-01** | UNIZONA | GOBIERNO
 
-2. ***UNIDAD MANEJADORA DE AIRE***
+2. ***UMA-P2 | VENT-VV, EF-AH, FT-UV/PF/M12***
 
-    > - Sensor de temperatura en ducto de inyección
-    > - Sensor de presión diferencial en ducto de inyección
-    > - Relevador para el encendido de luz ultravioleta
-    > - Interruptor de presión diferencial, estado de los filtros MERV 12
-    > - Monitoreo de velocidad del ventilador VFD
-    > - Alarma del estado del ventilador VFD
-    > - Control de la velocidad del ventilador VFD
-    > - Relevador para el arranque y paro del motor del ventilador
-    > - Actuador de válvula en las tuberías de agua helada
+    - Lista de cliente
+
+        > - Sensor de temperatura en ducto de inyección
+        > - Sensor de presión diferencial en ducto de inyección
+        > - Relevador para el encendido de luz ultravioleta
+        > - Interruptor de presión diferencial, estado de los filtros MERV 12
+        > - Monitoreo de velocidad del ventilador VFD
+        > - Alarma del estado del ventilador VFD
+        > - Control de la velocidad del ventilador VFD
+        > - Relevador para el arranque y paro del motor del ventilador
+        > - Actuador de válvula en las tuberías de agua helada
+
+    - Lista sugerida
+
+        > - Temperatura de suministro | `AI` | **TEM-D**
+        > - Temperatura de retorno | `AI` | **TEM-D**
+        > - Temperatura de area | `AI` | **TEM-C**
+        > - Presión de suministro de aire | `AI` | **DPT**
+        > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+        > - Confirmación de ventilador | `DI` | **CS**
+        > - Control de velocidad | `AO`
+        > - Control de válvula AH | `AO`
+        > - Estado de válvula de AH | `AI`
+        > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+        > - Estado de Prefiltros | `DI` | **DPS**
+        > - Estado de Filtros Merv 12 | `DI` | **DPS**
     
     ======================================================
 
