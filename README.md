@@ -401,20 +401,66 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-00-06** | UNIZONA | HEMODIALISIS
 
-10. ***AGUA HELADA***
+#### PLANTA DE AGUA HELADA
 
-    Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
+- Lista de cliente
 
     > 3 CHILLERS
     > 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
     > 3 BOMBAS DE AGUA HELADA, CIRCUITO SECUNDARIO (BOMBEO VARIABLE)
 
-11. ***AGUA CONDENSADOS***
+- Lista sugerida
+
+    > - Temperatura de suministro de agua | `AI` | **TEM-D**
+    > - Temperatura de retorno de agua | `AI` | **TEM-D**
+    > - Presión diferencial en circuito de agua | `AI`| **DPT-A**
+    > - Arranque de Chiller 1 | `DO` | **RL** + **B_RL**
+    > - Estado de Chiller 1 | `DI` | **CS**
+    > - Arranque de Chiller 2 | `DO` | **RL** + **B_RL**
+    > - Estado de Chiller 2 | `DI` | **CS**
+    > - Arranque de Chiller 3 | `DO` | **RL** + **B_RL**
+    > - Estado de Chiller 3 | `DI` | **CS**
+    > - Arranque de BP 1 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 1 | `DI` | **CS**
+    > - Arranque de BP 2 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 2 | `DI` | **CS**
+    > - Arranque de BP 3 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 3 | `DI` | **CS**
+    > - Arranque de BS 1 | `DO` | **RL** + **B_RL**
+    > - Estado de BS 1 | `DI` | **CS**
+    > - Control de velocidad BS 1 | `AO`
+    > - Arranque de BS 2 | `DO` | **RL** + **B_RL**
+    > - Estado de BS 2 | `DI` | **CS**
+    > - Control de velocidad BS 2 | `AO`
+    > - Arranque de BS 3 | `DO` | **RL** + **B_RL**
+    > - Estado de BS 3 | `DI` | **CS**
+    > - Control de velocidad BS 3 | `AO`
+    
+
+#### PLANTA DE AGUA CONDENSADOS
 
     Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
 
+- Lista de cliente
+
     > 2 TORRES DE ENFRIAMIENTO
     > 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
+
+- Lista sugerida
+
+    > - Temperatura de suministro de agua | `AI` | **TEM-D**
+    > - Temperatura de retorno de agua | `AI` | **TEM-D**
+    > - Presión diferencial en circuito de agua | `AI`| **DPT-A**
+    > - Arranque de Torre 1 | `DO` | **RL** + **B_RL**
+    > - Estado de Torre 1 | `DI` | **CS**
+    > - Arranque de Torre 2 | `DO` | **RL** + **B_RL**
+    > - Estado de Torre 2 | `DI` | **CS**
+    > - Arranque de BP 1 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 1 | `DI` | **CS**
+    > - Arranque de BP 2 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 2 | `DI` | **CS**
+    > - Arranque de BP 3 | `DO` | **RL** + **B_RL**
+    > - Estado de BP 3 | `DI` | **CS**
 
 12. ***UNIDAD LIGERA DE PLAFON***
 
