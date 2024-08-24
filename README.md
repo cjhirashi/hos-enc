@@ -406,7 +406,9 @@ Diagramas de control de Unidades Manejadoras de aire
 - Lista de cliente
 
     > 3 CHILLERS
+    >
     > 3 BOMBAS DE AGUA HELADA, CIRCUITO PRIMARIO (BOMBEO CONSTANTE)
+    >
     > 3 BOMBAS DE AGUA HELADA, CIRCUITO SECUNDARIO (BOMBEO VARIABLE)
 
 - Lista sugerida
@@ -444,6 +446,7 @@ Diagramas de control de Unidades Manejadoras de aire
 - Lista de cliente
 
     > 2 TORRES DE ENFRIAMIENTO
+    >
     > 3 BOMBAS DE AGUA CONDENSADOS (BOMBEO CONSTANTE)
 
 - Lista sugerida
