@@ -30,8 +30,9 @@ Diagramas de control de Unidades Manejadoras de aire
 
     Lista sugerida
 
-    > - Temperatura de area | `AI` | **TEM-D**
-    > - Temperatura de cuarto | `AI` | **TEM-C**
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
     > - Arranque de ventilador | `DO` | **RL** + **B_RL**
     > - Confirmación de ventilador | `DI` | **CS**
     > - Control de velocidad | `AO`
