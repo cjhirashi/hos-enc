@@ -172,7 +172,9 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-00-01DX** | UNIZONA | TOMOGRAFO
 
-5. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P5 | VENT-VV, EF-AH/AC/DX, FT-UV/PF/M12/M15
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -187,6 +189,26 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Actuador de válvula en las tuberías de agua condensada
     > - Arranque y paro de la unidad condensadora
     > - Estado de la unidad condensadora
+
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Control de válvula AC | `AO`
+    > - Estado de válvula de AC | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 15 | `DI` | **DPS**
+    > - Arranque de condensadora | `DO` | **RL** + **B_RL**
+    > - Confirmación de condensadora | `DI` | **CS**
     
     ======================================================
 
@@ -194,7 +216,9 @@ Diagramas de control de Unidades Manejadoras de aire
     -------|------|-----
     **UMA-01-04DX** | UNIZONA | TOMOGRAFO
 
-6. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P6 | VENT-VV, EF-AH/AC/DX, FT-UV/PF/M12/M17 EX-VC
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -211,6 +235,28 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Sensor de corriente estado del ventilador de extracción
     > - Arranque y paro de la unidad condensadora
     > - Estado de la unidad condensadora
+
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Control de válvula AC | `AO`
+    > - Estado de válvula de AC | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 17 | `DI` | **DPS**
+    > - Arranque de condensadora | `DO` | **RL** + **B_RL**
+    > - Confirmación de condensadora | `DI` | **CS**
+    > - Arranque de extractor | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor | `DI` | **CS**
     
     ======================================================
 
@@ -223,7 +269,9 @@ Diagramas de control de Unidades Manejadoras de aire
 
 **SISTEMA DE CONTROL DE AIRE ACONDICIONADO, DIAGRAMA DE CONECTIVIDAD**
 
-7. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P7 | VENT-VV, EF-AH, FT-UV/PF/M12/M15
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -236,13 +284,31 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Relevador para el arranque y paro del motor del ventilador
     > - Actuador de válvula en las tuberías de agua helada
 
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 15 | `DI` | **DPS**
+
     ======================================================
 
     EQUIPO | TIPO | AREA
     -------|------|-----
     **UMA-01-03** | UNIZONA | ENDOSCOPIAS
 
-8. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P8 | VENT-VV, EF-AH, FT-UV/PF/M12/M15 EX-VC
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -257,6 +323,24 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Relevador arranque y paro del ventilador de extracción
     > - Sensor de corriente estado del ventilador de extracción
 
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 15 | `DI` | **DPS**
+    > - Arranque de extractor | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor | `DI` | **CS**
+
     ======================================================
 
     EQUIPO | TIPO | AREA
@@ -264,7 +348,9 @@ Diagramas de control de Unidades Manejadoras de aire
     **UMA-00-05** | UNIZONA | QUIMIOTERAPIA/DIALISIS
     **UMA-00-07** | UNIZONA | CLINICA DE HERIDAS
 
-9. ***UNIDAD MANEJADORA DE AIRE***
+#### UMA-P8 | VENT-VV, EF-AH, FT-UV/PF/M12/M15 EX1-VC EX2-VC EX3-VC EX4-VC
+
+- Lista de cliente
 
     > - Sensor de temperatura en ducto de inyección
     > - Sensor de presión diferencial en ducto de inyección
@@ -284,6 +370,30 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Sensor de corriente estado del ventilador de extracción 3
     > - Relevador arranque y paro del ventilador de extracción 4
     > - Sensor de corriente estado del ventilador de extracción 4
+
+- Lista sugerida
+
+    > - Temperatura de suministro | `AI` | **TEM-D**
+    > - Temperatura de retorno | `AI` | **TEM-D**
+    > - Temperatura de area | `AI` | **TEM-C**
+    > - Presión de suministro de aire | `AI` | **DPT**
+    > - Arranque de ventilador | `DO` | **RL** + **B_RL**
+    > - Confirmación de ventilador | `DI` | **CS**
+    > - Control de velocidad | `AO`
+    > - Control de válvula AH | `AO`
+    > - Estado de válvula de AH | `AI`
+    > - Activación de FIltración UV | `DO` | **RL** + **B_RL**
+    > - Estado de Prefiltros | `DI` | **DPS**
+    > - Estado de Filtros Merv 12 | `DI` | **DPS**
+    > - Estado de Filtros Merv 15 | `DI` | **DPS**
+    > - Arranque de extractor 1 | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor 1 | `DI` | **CS**
+    > - Arranque de extractor 2 | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor 2 | `DI` | **CS**
+    > - Arranque de extractor 3 | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor 3 | `DI` | **CS**
+    > - Arranque de extractor 4 | `DO` | **RL** + **B_RL**
+    > - Confirmación de extractor 4 | `DI` | **CS**
 
     ======================================================
 
