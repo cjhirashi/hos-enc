@@ -437,8 +437,10 @@ Diagramas de control de Unidades Manejadoras de aire
     > - Arranque de BS 3 | `DO` | **RL** + **B_RL**
     > - Estado de BS 3 | `DI` | **CS**
     > - Control de velocidad BS 3 | `AO`
+    > - Válvula de bloqueo CH 1 | `DO` | **RL** + **B_RL**
+    > - Válvula de bloqueo CH 2 | `DO` | **RL** + **B_RL**
+    > - Válvula de bloqueo CH 3 | `DO` | **RL** + **B_RL**
     
-
 #### PLANTA DE AGUA CONDENSADOS
 
     Este sistema lo marcan como Modbus, ¿Este lo dejamos como BACnet?
