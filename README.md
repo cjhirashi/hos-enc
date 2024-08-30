@@ -413,8 +413,8 @@ Diagramas de control de Unidades Manejadoras de aire
 
 - Lista sugerida
 
-    > - Temperatura de suministro de agua | `AI` | **TEM-D**
-    > - Temperatura de retorno de agua | `AI` | **TEM-D**
+    > - Temperatura de suministro de agua | `AI` | **TEM-I**
+    > - Temperatura de retorno de agua | `AI` | **TEM-I**
     > - Presión diferencial en circuito de agua | `AI`| **DPT-A**
     > - Arranque de Chiller 1 | `DO` | **RL** + **B_RL**
     > - Estado de Chiller 1 | `DI` | **CS**
@@ -453,8 +453,8 @@ Diagramas de control de Unidades Manejadoras de aire
 
 - Lista sugerida
 
-    > - Temperatura de suministro de agua | `AI` | **TEM-D**
-    > - Temperatura de retorno de agua | `AI` | **TEM-D**
+    > - Temperatura de suministro de agua | `AI` | **TEM-I**
+    > - Temperatura de retorno de agua | `AI` | **TEM-I**
     > - Presión diferencial en circuito de agua | `AI`| **DPT-A**
     > - Arranque de Torre 1 | `DO` | **RL** + **B_RL**
     > - Estado de Torre 1 | `DI` | **CS**
